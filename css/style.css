@@ -114,13 +114,57 @@ header, .main-nav-scrolled {
   margin-top: 50px;
   text-align: center;
 }
-
 /******************************************
-/* HAMBURGER
+/* COVER PHOTOS
 /*******************************************/
 
-#home-header .hamburger{
-  display: none;
+.thailand{
+  background-image: url(../images/thailand.jpg);
+}
+
+.vietnam{
+  background-image: url(../images/vietnam.jpg);
+}
+
+.cambodia{
+  background-image: url(../images/cambodia.jpg);
+}
+
+.malaysia{
+  background-image: url(../images/malaysia.jpg);
+}
+
+.singapore{
+  background-image: url(../images/singapore.jpg);
+}
+
+.indonesia{
+  background-image: url(../images/indonesia.jpg);
+}
+
+/******************************************
+/* SUMMARY TEXT
+/*******************************************/
+
+.summary h2{
+  font-size: 40px;
+  color:black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.summary p{
+  font-family: 'Shadows Into Light Two', cursive;
+  text-align:justify;
+  padding-left: 15%; 
+  padding-right: 15%;
+}
+
+h3{
+  font-size: 26px;
+  color:black;
+  font-family: 'Shadows Into Light Two', cursive;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 /******************************************
