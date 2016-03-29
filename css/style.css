@@ -52,10 +52,11 @@ body{
 /* HEADER
 /*******************************************/
 
-header{
+#home-header{
   text-align: center;
   height: 650px;
   padding-top: 50px;
+  background-image: url(../images/isla-mujeres.jpg);
   overflow: hidden;
   background-position: center center;
   background-repeat: no-repeat;
@@ -64,15 +65,8 @@ header{
 
 h1{
   font-family: 'Shadows Into Light Two', cursive;
-  font-size: 160px;
+  font-size: 100px;
   color: white;
-}
-
-.home-header h2{
-  font-family: 'Shadows Into Light Two', cursive;
-  font-size: 40px;
-  color: white;
-  margin-bottom: 100px;
 }
 
 nav li{
@@ -92,7 +86,7 @@ nav li a{
   position: relative; 
 }
 .main-nav {
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.7);
   height: 40px;
   z-index: 150;
   padding-top: 10px;
@@ -106,65 +100,22 @@ header, .main-nav-scrolled {
   width: 100%;
   top: 0;
 }
+
 .main {
   background: white;
-  padding: 80px 0px 50px;
+  padding: 110px 50px 50px;
   column-count: 2;
   column-gap: 40px;
   margin-top: 50px;
   text-align: center;
 }
-/******************************************
-/* COVER PHOTOS
-/*******************************************/
-
-.thailand{
-  background-image: url(../images/thailand.jpg);
-}
-
-.vietnam{
-  background-image: url(../images/vietnam.jpg);
-}
-
-.cambodia{
-  background-image: url(../images/cambodia.jpg);
-}
-
-.malaysia{
-  background-image: url(../images/malaysia.jpg);
-}
-
-.singapore{
-  background-image: url(../images/singapore.jpg);
-}
-
-.indonesia{
-  background-image: url(../images/indonesia.jpg);
-}
 
 /******************************************
-/* SUMMARY TEXT
+/* HAMBURGER
 /*******************************************/
 
-.summary h2{
-  font-size: 40px;
-  color:black;
-  font-family: 'Shadows Into Light Two', cursive;
-}
-
-.summary p{
-  font-family: 'Shadows Into Light Two', cursive;
-  text-align:justify;
-  padding-left: 15%; 
-  padding-right: 15%;
-}
-
-h3{
-  font-size: 26px;
-  color:black;
-  font-family: 'Shadows Into Light Two', cursive;
-  padding-top: 50px;
-  padding-bottom: 20px;
+#home-header .hamburger{
+  display: none;
 }
 
 /******************************************
