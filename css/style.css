@@ -170,11 +170,11 @@ h3{
 /******************************************
 /* BODY - PHOTO GRID
 /*******************************************/
-
+/*
 ul.rig {
   list-style: none;
   font-size: 0px;
-  margin-left: -0.5%; /* should match li left margin */
+  margin-left: -0.5%; /* should match li left margin 
 }
 ul.rig li {
   display: inline-block;
@@ -202,16 +202,17 @@ ul.rig li p {
   color: #999;
 }
 
-/* class for 2 columns */
+/* class for 2 columns 
 ul.rig.columns-2 li {
-  width: 49.5%; /* this value + 2.5 should = 50% */
+  width: 49.5%; /* this value + 2.5 should = 50% 
 }
+*/
 
-/*
+
 ul.rig {
   list-style: none;
   font-size: 0px;
-  margin-left: -2.5%; /* should match li left margin 
+  margin-left: -2.5%; /* should match li left margin */
 }
 ul.rig li {
   display: inline-block;
@@ -239,11 +240,10 @@ ul.rig li p {
   color: #999;
 }
 
-/* class for 2 columns 
+/* class for 2 columns */
 ul.rig.columns-2 li {
-  width: 47.5%; /* this value + 2.5 should = 50% 
+  width: 47.5%; /* this value + 2.5 should = 50% */
 }
-*/
 
 /******************************************
 /* Media Queries
