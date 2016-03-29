@@ -104,18 +104,9 @@ header, .main-nav-scrolled {
 .main {
   background: white;
   padding: 110px 50px 50px;
-  column-count: 2;
   column-gap: 40px;
   margin-top: 50px;
   text-align: center;
-}
-
-/******************************************
-/* HAMBURGER
-/*******************************************/
-
-#home-header .hamburger{
-  display: none;
 }
 
 /******************************************
